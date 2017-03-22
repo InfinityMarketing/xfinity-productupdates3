@@ -48,7 +48,6 @@ if ($lang == "esp") { $esp = 1; } else { $esp = 0; }
 					<ul class="nav navbar-nav">
 						<li><a href="index.php"><?php echo (!$esp ? "Introduction" : "Introducci&oacute;n"); ?></a></li>
 						<li><a href="new_packages.php"><?php echo (!$esp ? "New Packages" : "Nuevos Paquetes"); ?></a></li>
-						<li><a href="discontinued.php"><?php echo (!$esp ? "Discontinued Packages" : "Nuevos Paquetes"); ?></a></li>
 						<!-- <li><a onclick="$('#service').animatescroll({padding:71});"><?php echo (!$esp ? "New Services" : "Nuevos Servicios"); ?></a></li> -->
 					</ul>
 				</div>
@@ -87,65 +86,38 @@ if ($lang == "esp") { $esp = 1; } else { $esp = 0; }
 	    			<td class="price-heading"><p><?php echo (!$esp ? "Price" : "Precio"); ?></p></td>
 	  			  </tr>
                   
-                  <!-- SURE PRICE PRODUCT BLOCK -->
-	  			  <tr>
-	    			<td class="channel-name1"><?php echo (!$esp ? "XF Starter Triple Play" : ""); ?></td>
-	    			<td class="price1" rowspan="2">$150.00</td>
-	  			  </tr>
-	  			  <tr class="hov">
-				    <td colspan="2" class="desc ">
-                      <p><?php echo (!$esp ? "Includes Digital Starter and Streampix® for primary outlet, Blast!® Internet and XFINITY® Voice Unlimited" : ""); ?></p>
-                    </td>
-	  			  </tr>
-                  <tr class="sp-w bb">
-    				<td class="sp-title">SurePrice&sup3;</td>
-    				<td class="sure-price">$129.00</td>
-  				  </tr>
-                  
-                  <!-- SURE PRICE PRODUCT BLOCK -->
-	  			  <tr>
-	    			<td class="channel-name1"><?php echo (!$esp ? "XF Preferred Triple Play" : ""); ?></td>
-	    			<td class="price1" rowspan="2">$170.00</td>
-	  			  </tr>
-	  			  <tr class="hov">
-				    <td colspan="2" class="desc ">
-                      <p><?php echo (!$esp ? "Includes Digital Preferred, STARZ® and Streampix® for primary outlet, HD Technology Fee, Blast!® Internet and XFINITY® Voice Unlimited" : ""); ?></p>
-                    </td>
-	  			  </tr>
-                  <tr class="sp-w bb">
-    				<td class="sp-title">SurePrice&sup3;</td>
-    				<td class="sure-price">$149.99</td>
-  				  </tr>
-                  
-                  <!-- SURE PRICE PRODUCT BLOCK -->
-	  			  <tr>
-	    			<td class="channel-name1"><?php echo (!$esp ? "X1 Preferred Latino Triple Play" : ""); ?></td>
+                   <!-- PRODUCT BLOCK -->
+                  <tr>
+	    			<td class="channel-name1"><?php echo (!$esp ? "X1 Starter Extreme Triple Play" : ""); ?></td>
 	    			<td class="price1" rowspan="2">$190.00</td>
 	  			  </tr>
-	  			  <tr class="hov">
-				    <td colspan="2" class="desc ">
-                      <p><?php echo (!$esp ? "Includes Digital Preferred, STARZ®, SHOWTIME®, THE MOVIE CHANNEL™ and Streampix® for primary outlet, HD Technology Fee, Extreme 150 Internet and XFINITY® Voice Unlimited" : ""); ?></p>
+	  			  <tr class="hov bb">
+				    <td colspan="2" class="desc bb">
+                      <p><?php echo (!$esp ? "Includes Digital Starter, Streampix® and AnyRoom® DVR Service for primary outlet, Extreme 300 Internet and XFINITY® Voice Unlimited" : ""); ?></p>
                     </td>
 	  			  </tr>
-                  <tr class="sp-w bb">
-    				<td class="sp-title">SurePrice&sup3;</td>
-    				<td class="sure-price">$169.99</td>
-  				  </tr>
                   
-                   <!-- SURE PRICE PRODUCT BLOCK -->
-	  			  <tr>
-	    			<td class="channel-name1"><?php echo (!$esp ? "XF Premier Triple Play" : ""); ?></td>
+                   <!-- PRODUCT BLOCK -->
+                  <tr>
+	    			<td class="channel-name1"><?php echo (!$esp ? "X1 Preferred Extreme Triple Play" : ""); ?></td>
 	    			<td class="price1" rowspan="2">$210.00</td>
 	  			  </tr>
-	  			  <tr class="hov">
-				    <td colspan="2" class="desc ">
-                      <p><?php echo (!$esp ? "Includes Digital Premier and Streampix® for primary outlet, HD Technology Fee, Extreme 150 Internet and XFINITY® Voice Unlimited" : ""); ?></p>
+	  			  <tr class="hov bb">
+				    <td colspan="2" class="desc bb">
+                      <p><?php echo (!$esp ? "Includes Digital Preferred, STARZ®, Streampix® and AnyRoom® DVR Service for primary outlet, HD Technology Fee, Extreme 300 Internet and XFINITY® Voice Unlimited" : ""); ?></p>
                     </td>
 	  			  </tr>
-                  <tr class="sp-w bb">
-    				<td class="sp-title">SurePrice&sup3;</td>
-    				<td class="sure-price">$189.99</td>
-  				  </tr>
+                  
+                   <!-- PRODUCT BLOCK -->
+                  <tr>
+	    			<td class="channel-name1"><?php echo (!$esp ? "X1 Premier Extreme Triple Play" : ""); ?></td>
+	    			<td class="price1" rowspan="2">$240.00</td>
+	  			  </tr>
+	  			  <tr class="hov bb">
+				    <td colspan="2" class="desc bb">
+                      <p><?php echo (!$esp ? "Includes Digital Premier, Streampix® and AnyRoom® DVR Service for primary outlet, HD Technology Fee, Extreme 300 Internet, and XFINITY® Voice Unlimited" : ""); ?></p>
+                    </td>
+	  			  </tr>
                   
                   
 				</table>
@@ -164,86 +136,70 @@ if ($lang == "esp") { $esp = 1; } else { $esp = 0; }
                   
                   <!-- PRODUCT BLOCK -->
                   <tr>
-	    			<td class="channel-name1"><?php echo (!$esp ? "Blast!® Plus" : ""); ?></td>
-	    			<td class="price1" rowspan="2">$94.95</td>
+	    			<td class="channel-name1"><?php echo (!$esp ? "Extreme Plus" : ""); ?></td>
+	    			<td class="price1" rowspan="2">$109.95</td>
 	  			  </tr>
 	  			  <tr class="hov bb">
 				    <td colspan="2" class="desc bb">
-                      <p><?php echo (!$esp ? "Includes Digital Economy and Streampix® for primary outlet and Blast!® Internet" : ""); ?></p>
+                      <p><?php echo (!$esp ? "Includes Limited Basic, choice of HBO® or SHOWTIME® for primary outlet and Extreme 300 Internet" : ""); ?></p>
                     </td>
 	  			  </tr>
                   
                   <!-- PRODUCT BLOCK -->
                   <tr>
-	    			<td class="channel-name1"><?php echo (!$esp ? "Internet Plus" : ""); ?></td>
-	    			<td class="price1" rowspan="2">$74.95</td>
+	    			<td class="channel-name1"><?php echo (!$esp ? "X1 Starter Extreme Double Play" : ""); ?></td>
+	    			<td class="price1" rowspan="2">$170.00</td>
 	  			  </tr>
 	  			  <tr class="hov bb">
 				    <td colspan="2" class="desc bb">
-                      <p><?php echo (!$esp ? "Includes Limited Basic, choice of HBO® or SHOWTIME®, Streampix®, a standard definition digital converter and remote for the primary outlet and Performance Internet" : ""); ?></p>
+                      <p><?php echo (!$esp ? "Includes Digital Starter, Streampix® and AnyRoom® DVR Service for primary outlet, HD Technology Fee and Extreme 300 Internet" : ""); ?></p>
                     </td>
 	  			  </tr>
                   
-                   <!-- SURE PRICE PRODUCT BLOCK -->
-	  			  <tr>
-	    			<td class="channel-name1"><?php echo (!$esp ? "XF Starter Double Play" : ""); ?></td>
-	    			<td class="price1" rowspan="2">$130.00</td>
-	  			  </tr>
-	  			  <tr class="hov">
-				    <td colspan="2" class="desc ">
-                      <p><?php echo (!$esp ? "Includes Digital Starter and Streampix® for primary outlet and Blast!® Internet" : ""); ?></p>
-                    </td>
-	  			  </tr>
-                  <tr class="sp-w bb">
-    				<td class="sp-title">SurePrice&sup2;</td>
-    				<td class="sure-price">$109.99</td>
-  				  </tr>
-                  
-                  <!-- SURE PRICE PRODUCT BLOCK -->
-	  			  <tr>
-	    			<td class="channel-name1"><?php echo (!$esp ? "XF Preferred Double Play" : ""); ?></td>
-	    			<td class="price1" rowspan="2">$150.00</td>
-	  			  </tr>
-	  			  <tr class="hov">
-				    <td colspan="2" class="desc ">
-                      <p><?php echo (!$esp ? "Includes Digital Preferred, STARZ® and Streampix® for primary outlet, HD Technology Fee and Blast!® Internet" : ""); ?></p>
-                    </td>
-	  			  </tr>
-                  <tr class="sp-w bb">
-    				<td class="sp-title">SurePrice&sup2;</td>
-    				<td class="sure-price">$129.99</td>
-  				  </tr>
-                  
-                  <!-- SURE PRICE PRODUCT BLOCK -->
-	  			  <tr>
-	    			<td class="channel-name1"><?php echo (!$esp ? "XF Preferred Plus Double Play" : ""); ?></td>
-	    			<td class="price1" rowspan="2">$170.00</td>
-	  			  </tr>
-	  			  <tr class="hov">
-				    <td colspan="2" class="desc ">
-                      <p><?php echo (!$esp ? "Includes Digital Preferred, STARZ® and Streampix® for primary outlet, HD Technology Fee and Blast!® Internet" : ""); ?></p>
-                    </td>
-	  			  </tr>
-                  <tr class="sp-w bb">
-    				<td class="sp-title">SurePrice&sup2;</td>
-    				<td class="sure-price">$149.99</td>
-  				  </tr>
-                  
-                  <!-- SURE PRICE PRODUCT BLOCK -->
-	  			  <tr>
-	    			<td class="channel-name1"><?php echo (!$esp ? "XF Premier Double Play" : ""); ?></td>
+                    <!-- PRODUCT BLOCK -->
+                  <tr>
+	    			<td class="channel-name1"><?php echo (!$esp ? "X1 Preferred Extreme Double Play" : ""); ?></td>
 	    			<td class="price1" rowspan="2">$190.00</td>
 	  			  </tr>
-	  			  <tr class="hov">
-				    <td colspan="2" class="desc ">
-                      <p><?php echo (!$esp ? "Includes Digital Premier and Streampix® for primary outlet, HD Technology Fee and Blast!® Internet" : ""); ?></p>
+	  			  <tr class="hov bb">
+				    <td colspan="2" class="desc bb">
+                      <p><?php echo (!$esp ? "Includes Digital Preferred, STARZ®, Streampix® and AnyRoom® DVR Service for primary outlet, HD Technology Fee and Extreme 300 Internet" : ""); ?></p>
                     </td>
 	  			  </tr>
-                  <tr class="sp-w bb">
-    				<td class="sp-title">SurePrice&sup2;</td>
-    				<td class="sure-price">$169.99</td>
-  				  </tr>
                   
+                   <!-- PRODUCT BLOCK -->
+                  <tr>
+	    			<td class="channel-name1"><?php echo (!$esp ? "X1 Premier Extreme Double Play" : ""); ?></td>
+	    			<td class="price1" rowspan="2">$220.00</td>
+	  			  </tr>
+	  			  <tr class="hov bb">
+				    <td colspan="2" class="desc bb">
+                      <p><?php echo (!$esp ? "Includes Digital Premier, Streampix®, and AnyRoom® DVR Service for primary outlet, HD Technology Fee, and Extreme 300 Internet" : ""); ?></p>
+                    </td>
+	  			  </tr>
+                  
+				</table>
+			</div>
+		</section>
+      
+      <section id="">
+			<div class="container" style="padding-top:30px; padding-bottom:50px">
+				<h3 class="xf" style="margin-top:0;"><?php echo (!$esp ? "XFINITY Internet<sup>1,3</sup>" : ""); ?></h3>
+              
+				<table border="0" cellpadding="0" cellspacing="0">
+	 		      <tr class="bb">
+	    			<td></td>
+	    			<td class="price-heading"><p><?php echo (!$esp ? "Price" : "Precio"); ?></p></td>
+	  			  </tr>
+                  
+                  <!-- PRODUCT BLOCK -->
+                  <tr>
+	    			<td class="channel-name1"><?php echo (!$esp ? "Extreme 300<sup>4</sup>" : ""); ?></td>
+	    			<td class="price1" rowspan="2">$99.95</td>
+	  			  </tr>
+	  			  <tr class="hov bb">
+				    
+	  			  </tr>
                   
 				</table>
 			</div>
@@ -258,8 +214,8 @@ if ($lang == "esp") { $esp = 1; } else { $esp = 0; }
 		      <ol>
                 <li>Certain services available separately or as a part of other levels of service. Comcast service is subject to Comcast’s standard terms and conditions of service. Unless otherwise specified, prices shown are the monthly charge for the corresponding service, equipment or package. Prices shown do not include applicable taxes, franchise fees, FCC fees, Regulatory Recovery Fee, Public Access fees, other state or local fees or other applicable charges (e.g., per-call toll or international charges). Prices, services and features are subject to change. If you are a video service customer and you own a compatible digital converter or CableCARD device, please call 1-800-XFINITY for pricing information or visit xfinity.com/equipmentpolicy. ©2017 Comcast. All rights reserved.</li>
                 <li>Requires a Voice/Data Modem.</li>
-                <li>SurePrice only available for 12 months to Triple Play customers after a 12 month or 24 month promotional package with SurePrice.</li>
-                <li>SurePrice only available for 12 months for XF Starter Double Play, XF Preferred Double Play, XF Preferred Plus Double Play and XF Premier Double Play customers after 12 month promotional packages.</li>
+                <li>Voice/Data modem required. For more information regarding XFINITY Internet go to xfinity.com/internet-service.html.</li>
+                <li>Not available in all areas. May require installation and non-refundable installation charge.</li>
               </ol>
 			</div>
 		</div>

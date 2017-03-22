@@ -13,7 +13,7 @@
 				</ul>
 			</div>
 			<div class="col-md-12">
-				<p class="disclaimer"><?php echo (!$esp ? "Restrictions apply. Only available in Central Division – FL, SC, GA, AL, MS, TN, KY, MI, IN, AR, IL, VA. Taxes and applicable fees additional." : "No disponible en todas las áreas. Se aplican restricciones. Solo disponible en División Central - FL, SC, GA, AL, MS, TN, KY, MI, IN, AR, IL, VA. Impuestos y tarifas son adicionales."); ?>
+				<p class="disclaimer"><?php echo (!$esp ? "Restrictions apply. Applies to limited areas of Chattanooga, TN only. Not all services available in all areas. Taxes and applicable fees additional." : "No disponible en todas las áreas. Se aplican restricciones. Solo disponible en División Central - FL, SC, GA, AL, MS, TN, KY, MI, IN, AR, IL, VA. Impuestos y tarifas son adicionales."); ?>
 					 &copy; 2017 Comcast. <?php echo (!$esp ? "All rights reserved." : "Derechos reservados."); ?><p>
 			</div>
 		</div>
