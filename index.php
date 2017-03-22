@@ -49,8 +49,6 @@ if ($lang == "esp") { $esp = 1; } else { $esp = 0; }
 					<ul class="nav navbar-nav">
 						<li><a onclick="$('header').animatescroll({padding:71});"><?php echo (!$esp ? "Introduction" : "Introducci&oacute;n"); ?></a></li>
 						<li><a href="new_packages.php"><?php echo (!$esp ? "New Packages" : "Nuevos Paquetes"); ?></a></li>
-						<li><a href="discontinued.php"><?php echo (!$esp ? "Discontinued Packages" : "Nuevos Paquetes"); ?></a></li>
-						<!-- <li><a onclick="$('#service').animatescroll({padding:71});"><?php echo (!$esp ? "New Services" : "Nuevos Servicios"); ?></a></li> -->
 					</ul>
 				</div>
 			</div>
@@ -85,45 +83,34 @@ if ($lang == "esp") { $esp = 1; } else { $esp = 0; }
 				</div>
 
 				<div class="row">
-					<div class="col-md-6 padd lright">
+					<div class="col-md-4 padd lright">
 						<h5><?php echo (!$esp ? "XFINITY Triple Play Packages" : ""); ?></h5>
-						<?php echo (!$esp ? "XF Starter Triple Play" : ""); ?><br>
-						<?php echo (!$esp ? "XF Preferred Triple Play" : ""); ?><br>
-                        <?php echo (!$esp ? "XF Preferred Plus Triple Play" : ""); ?><br>
-                        <?php echo (!$esp ? "XF Premier Triple Play" : ""); ?><br>
+						<?php echo (!$esp ? "X1 Starter Extreme Triple Play" : ""); ?><br>
+						<?php echo (!$esp ? "X1 Preferred Extreme Triple Play" : ""); ?><br>
+                        <?php echo (!$esp ? "X1 Premier Extreme Triple Play" : ""); ?><br>
 						&nbsp;
 					</div>
 
-					<div class="col-md-6 padd">
+					<div class="col-md-4 padd lright">
 						<h5><?php echo (!$esp ? "XFINITY Double Play Packages" : ""); ?></h5>
-						<?php echo (!$esp ? "Blast!® Plus" : ""); ?><br>
-						<?php echo (!$esp ? "Internet Plus" : ""); ?><br>
-						<?php echo (!$esp ? "XF Starter Double Play" : ""); ?><br>
-                        <?php echo (!$esp ? "XF Preferred Double Play" : ""); ?><br>
-                        <?php echo (!$esp ? "XF Preferred Plus Double Play" : ""); ?><br>  
-                        <?php echo (!$esp ? "XF Premier Double Play" : ""); ?><br>
+						<?php echo (!$esp ? "Extreme Plus" : ""); ?><br>
+						<?php echo (!$esp ? "X1 Starter Extreme Double Play" : ""); ?><br>
+						<?php echo (!$esp ? "X1 Preferred Extreme Double Play" : ""); ?><br>
+                        <?php echo (!$esp ? "X1 Premier Extreme Double Play" : ""); ?><br>
 						&nbsp;
 					</div>
+                  
+                    <div class="col-md-4 padd">
+                          <h5><?php echo (!$esp ? "XFINITY Internet" : ""); ?></h5>
+                          <?php echo (!$esp ? "Extreme 300" : ""); ?><br>
+                          &nbsp;
+                      </div>
                   
 				</div>
 
 				<div class="row" style="text-align:center;">
 					<div class="col-md-12" style="padding:20px 0 50px">
 						<a class="button_new" href="new_packages.php<?php echo (!$esp) ? "?lang=eng" : "?lang=esp"; ?>"><?php echo (!$esp ? "View Here" : "Ver Aqu&iacute;"); ?></a>
-					</div>
-				</div>
-			</div>
-		</section>
-		
-		<section id="discontinued" style="background-color:#f0f0f2;">
-			<div class="container">
-				<div class="row" style="padding-top:30px">
-					<div class="col-md-7">
-						<h1 class="dis_packages"><b><?php echo (!$esp ? "Discontinued Packages" : ""); ?></b></h1>
-					</div>
-					<div class="col-md-5 dis_button" style="padding:20px 0 50px;">
-						<a class="button_new" href="discontinued.php<?php echo (!$esp) ? "?lang=eng" : "?lang=esp"; ?>"><?php echo (!$esp ? "View Here" : "Ver Aqu&iacute;"); ?>
-						</a>
 					</div>
 				</div>
 			</div>
