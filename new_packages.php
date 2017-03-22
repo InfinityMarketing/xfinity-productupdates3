@@ -9,7 +9,7 @@ if ($lang == "esp") { $esp = 1; } else { $esp = 0; }
 <!DOCTYPE html>
 <html>
 	<head>
-		<title><?php echo (!$esp ? "New Packages || Xfinity Product Updates 2" : "Nuevos paquetes || Xfinity Producto Update"); ?></title>
+		<title><?php echo (!$esp ? "New Packages || Xfinity Product Updates 3" : "Nuevos paquetes || Xfinity Producto Update"); ?></title>
 		<meta charset="utf-8" />
 		<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 		<!-- CSS 

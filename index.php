@@ -10,7 +10,7 @@ if ($lang == "esp") { $esp = 1; } else { $esp = 0; }
 <!DOCTYPE html>
 <html>
 	<head>
-		<title><?php echo (!$esp ? "XFINITY Product Updates 2" : ""); ?></title>
+		<title><?php echo (!$esp ? "XFINITY Product Updates 3" : ""); ?></title>
 		<meta charset="utf-8" />
 		<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 		<!-- CSS 
